@@ -1,0 +1,79 @@
+body {
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.background {
+    position: absolute;
+    margin-top: -10vw;
+    width: 100vw;
+    z-index: -1;
+}
+
+.main_stage {
+    position: absolute;
+    margin-top: 10vw;
+}
+
+.main_stage_podium {
+    position: fixed;
+}
+
+.main_stage_explore {
+    transition: 1s;
+    position: fixed;
+    color: black;
+    font-size: 3vw;
+    margin-top: 32.5vw;
+    margin-left: 41vw;
+    background-color: white;
+    border-radius: 10vw;
+    padding: 1vw;
+}
+
+.main_stage_explore:hover {
+    transition: 1s;
+    color: white;
+    background-color: black;
+}
+
+.main_stage_logo {
+    position: fixed;
+    width: 25vw;
+    margin-left: -30vw;
+    margin-top: 1vw;
+    border: 1px solid white;
+    border-radius: 10vw;
+    background-color: white;
+    padding: 1vw;
+
+}
+
+.main_stage_podium_mojasns {
+    color: white;
+    font-size: 7.5vw;
+    margin-top: 10vw;
+    margin-left: 100vw;
+    width: 40vw;
+}
+
+.main_stage_text {
+    color: white;
+    font-size: 3vw;
+    width: 50vw;
+}
+
+.main_stage_text_intro {
+    margin-left: -50vw;
+    margin-top: 45vw;
+    width: 100%;
+}
+
+.main_stage_text_about {
+    margin-left: 100vw;
+    margin-top: 20vw;
+    width: 100%;
+}

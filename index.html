@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moja SNS</title>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="assets/js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <img class="background" id="background" src="assets/img/background.png" />
+
+    <nav class="navbar" id="navbar">
+      <a href="index.html">
+        <img class="navbar_logo" id="navbar_logo" src="assets/img/sns_logo.png"
+      /></a>
+      <p class="navbar_title" id="navbar_title">Moja SNS</p>
+
+      <div class="navbar_navigation_show" id="navbar_navigation_show">
+        <svg
+          id="svg"
+          width="150"
+          height="150"
+          viewBox="0 0 32 42"
+          xmlns="http://www.w3.org/2000/svg"
+          onclick="this.classList.toggle('active')"
+        >
+          <g transform="matrix(1,0,0,1,-389.5,-264.004)">
+            <g id="arrow_left2">
+              <g transform="matrix(1,0,0,1,0,5)">
+                <path
+                  id="top"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <g
+                transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+              >
+                <path
+                  id="bottom"
+                  d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+                />
+              </g>
+              <path id="middle" d="M390,284.967L420,284.967" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <section class="navbar_navigation" id="navbar_navigation">
+        <ul class="navbar_nav" id="navbar_nav">
+          <div class="navbar_hover" id="navbar_hover"></div>
+          <li>
+            <a
+              href="index.html"
+              class="navbar_button navbar_button_active navbar_button_main"
+              id="navbar_button1"
+              >Domov</a
+            >
+          </li>
+          <li>
+            <a href="onas.html" class="navbar_button" id="navbar_button2"
+              >O nás</a
+            >
+          </li>
+          <li>
+            <a href="onas.html" class="navbar_button" id="navbar_button3"
+              >projekt</a
+            >
+          </li>
+        </ul>
+      </section>
+    </nav>
+    <main>
+      <section class="main_stage" id="main_stage">
+        <p class="main_stage_explore" id="main_stage_explore" onclick="explore()">Zistiť viac</p>
+        <aside class="main_stage_podium" id="main_stage_podium">
+          <img
+            class="main_stage_logo"
+            id="main_stage_logo"
+            src="assets/img/sns_logo.png"
+          />
+          <p class="main_stage_podium_mojasns" id="main_stage_podium_mojasns">
+            Moja SNS
+          </p>
+        </aside>
+        <article class="main_stage_text" id="main_stage_text">
+          <p class="main_stage_text_intro" id="main_stage_text_intro">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit id, illo laboriosam quidem, saepe, corporis quo beatae
+            fugit ipsum est provident vero dolor velit distinctio rem quam?
+            Adipisci, atque accusamus?
+          </p>
+          <p class="main_stage_text_about" id="main_stage_text_about">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit id, illo laboriosam quidem, saepe, corporis quo beatae
+            fugit ipsum est provident vero dolor velit distinctio rem quam?
+            Adipisci, atque accusamus?
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+  <script type="text/javascript" src="assets/js/javascript.js"></script>
+</html>
